@@ -1,9 +1,16 @@
 // 1) WAP to check whether a number is even or odd.
 void main() {
   int num = 7;
-  if (num % 2 == 0) {
-    print("$num is even");
+ 
+ print(evenOrOdd(num));
+}
+
+
+String evenOrOdd(int num){
+   if (num % 2 == 0) {
+    return "$num is even";
   } else {
-    print("$num is odd");
+    return "$num is odd";
   }
+
 }
